@@ -1,0 +1,30 @@
+{
+  "name": "whois-json-cli",
+  "version": "0.0.1",
+  "description": "Output whois data as JSON on the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "whois-json": "./index.js"
+  },
+  "keywords": [
+    "whois",
+    "json",
+    "domains",
+    "dns"
+  ],
+  "author": "John Wiley & Sons, Inc.",
+  "contributors": [
+    {
+      "name": "Benjamin Young",
+      "email": "byoung2@wiley.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "whois-json": "^2.0.4",
+    "yargs": "^15.1.0"
+  }
+}
