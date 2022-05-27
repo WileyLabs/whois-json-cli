@@ -25,6 +25,6 @@
   "license": "MIT",
   "dependencies": {
     "whois-json": "^2.0.4",
-    "yargs": "^15.1.0"
+    "yargs": "^17.5.1"
   }
 }
