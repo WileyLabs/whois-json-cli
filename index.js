@@ -8,7 +8,7 @@
 const whois = require('whois-json');
 
 require('yargs')
-  .scriptName("pirate-parser")
+  .scriptName('whois-json')
   .usage('$0 <domain>', 'Search whois', (yargs) => {
     yargs.positional('domain', {
       type: 'string',
